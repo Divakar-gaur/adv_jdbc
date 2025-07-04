@@ -6,7 +6,7 @@ public class NamePlusAge {
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/students";
         String name = "postgres";
-        String pass = "123";
+        String pass = "123";git sta
         try {
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
